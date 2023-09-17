@@ -1,0 +1,14 @@
+{
+	"name": "react-localsettings",
+	"version": "1.0.0",
+	"description": "useState but with localStorage saving",
+	"main": "src/index.js",
+	"type": "module",
+	"author": {
+		"name": "Astrid",
+		"email": "github@astrid.exposed"
+	},
+	"dependencies": {
+		"react": "^18.2.0"
+	}
+}
