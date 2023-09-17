@@ -26,7 +26,7 @@ export default function useLocalStorage(name, defaultValue, localStorageItem) {
 
 		let storedSettings = JSON.parse(localStorage.getItem(localStorageItem) ?? "{}");
 		storedSettings[name] = value;
-		localStorage.setItem(name, JSON.stringify(storedSettings));
+		localStorage.setItem(localStorageItem, JSON.stringify(storedSettings));
 	}
 
 	return [state, newSetState];
