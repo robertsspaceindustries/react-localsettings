@@ -1,10 +1,10 @@
-import { useState, useEffect, SetStateAction } from "react";
+import { useState, useEffect } from "react";
 
 /**
  * @param {string} name The name of this setting
  * @param {any} defaultValue The default value for this setting
  * @param {string} localStorageItem The name of the localStorage item, settings are saved in here
- * @returns {[any, SetStateAction]}
+ * @returns {[any, import("react").SetStateAction]}
  */
 export default function useLocalStorage(name, defaultValue, localStorageItem) {
 	localStorageItem = localStorageItem ?? "react-localsettings";
