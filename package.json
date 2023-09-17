@@ -1,6 +1,6 @@
 {
 	"name": "@robertsspaceindustries/react-localsettings",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "useState but with localStorage saving",
 	"main": "src/index.js",
 	"type": "module",
