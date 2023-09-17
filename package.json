@@ -1,5 +1,5 @@
 {
-	"name": "react-localsettings",
+	"name": "@robertsspaceindustries/react-localsettings",
 	"version": "1.0.0",
 	"description": "useState but with localStorage saving",
 	"main": "src/index.js",
