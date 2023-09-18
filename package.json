@@ -4,6 +4,9 @@
 	"description": "useState but with localStorage saving",
 	"main": "src/index.js",
 	"type": "module",
+	"repository": {
+		"url": "https://github.com/robertsspaceindustries/react-localsettings/"
+	},
 	"author": {
 		"name": "Astrid",
 		"email": "github@astrid.exposed"
