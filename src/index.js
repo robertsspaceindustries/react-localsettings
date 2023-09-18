@@ -13,7 +13,7 @@ export default function useLocalStorage(name, defaultValue, localStorageItem) {
 
 	useEffect(() => {
 		const storedSettings = JSON.parse(localStorage.getItem(localStorageItem) ?? "{}");
-		if (storedSettings[name]) {
+		if (typeof storedSettings[name] !== "undefined") {
 			setState(storedSettings[name]);
 		}
 	});
