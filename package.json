@@ -2,16 +2,26 @@
 	"name": "@robertsspaceindustries/react-localsettings",
 	"version": "1.0.5-b",
 	"description": "useState but with localStorage saving",
-	"main": "src/index.js",
-	"type": "module",
-	"repository": {
-		"url": "https://github.com/robertsspaceindustries/react-localsettings/"
-	},
-	"author": {
-		"name": "Astrid",
-		"email": "github@astrid.exposed"
-	},
+	"main": "index.js",
 	"dependencies": {
 		"react": "^18.2.0"
-	}
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/robertsspaceindustries/react-localsettings.git"
+	},
+	"keywords": [
+		"react"
+	],
+	"author": {
+    "name": "Astrid",
+    "email": "github@astrid.exposed",
+    "url": "https://robertsspaceindustri.es"
+  },
+	"license": "MIT",
+	"types": "./index.d.ts",
+	"bugs": {
+		"url": "https://github.com/robertsspaceindustries/react-localsettings/issues"
+	},
+	"homepage": "https://github.com/robertsspaceindustries/react-localsettings#readme"
 }
