@@ -1,8 +1,9 @@
 {
 	"name": "@robertsspaceindustries/react-localsettings",
-	"version": "1.0.5-b",
+	"version": "1.0.5-c",
 	"description": "useState but with localStorage saving",
 	"main": "index.js",
+	"type": "module",
 	"dependencies": {
 		"react": "^18.2.0"
 	},
